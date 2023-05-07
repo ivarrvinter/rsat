@@ -21,9 +21,8 @@ class SentimentAnalyzer(QWidget):
         vbox.addWidget(self.input_edit)
         vbox.addWidget(self.sentiment_label)
 
-        # Set the palette to add a glassmorphism effect
         pal = QPalette()
-        bg_color = QColor(255, 255, 255, 100)  # rgba(255, 255, 255, 0.4)
+        bg_color = QColor(255, 255, 255, 100)
         pal.setColor(QPalette.Window, bg_color)
         self.setPalette(pal)
 
