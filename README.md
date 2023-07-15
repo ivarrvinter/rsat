@@ -1,6 +1,6 @@
-# Sentiment Analyzer
+# Textblob Sentiment Analyzer GUI
 
-This is a simple Sentiment Analyzer application built using PyQt5 and TextBlob. It allows you to analyze the sentiment score of text input.
+This is a fun GUI project built using PyQt5 and TextBlob that allows you to analyze the sentiment score of text input simultaneously.
 
 ## How to Use
 
@@ -13,7 +13,7 @@ pip install pyqt5 textblob
 2. Run the application:
 
 ```python 
-python sentiment_analyzer.py
+python main.py
 ```
 
 3. The application window will appear with an input field labeled "Enter Text". Enter your text in the input field.
@@ -27,6 +27,4 @@ python sentiment_analyzer.py
 
 ## License
 
-This project is licensed under the [CC BY-NC-SA 4.0](LICENSE) license.
-
-For any questions or further information, please contact [Ivarr Vinter](mailto:ivarrvinter@gmail.com).
+This project is licensed under the [MIT](LICENSE) license.
